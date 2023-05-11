@@ -1,0 +1,30 @@
+div {
+  border-top: 1px solid red;
+  /* border:5px solid black;
+  border-bottom:0px solid red;
+  border-left:2px solid blue;
+  border-right: 2px solid green; */
+  /* border:1px solid yellow; */
+  
+}
+.txt-red{
+  color: rebeccapurple;
+  border: 1px solid goldenrod;
+}
+.txt-red{
+  color: black;
+  border: 3px solid saddlebrown;
+  background-color: blue;
+  border-radius: 10px;
+}
+.cat2{
+  color: blueviolet;
+  border: 3px solid darkblue;
+  border-radius: 10Px;
+}
+.nav{
+  width: 200px;
+  border: 2px solid yellow;
+  background-color: rebeccapurple
+  
+}

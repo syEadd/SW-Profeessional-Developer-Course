@@ -1,0 +1,18 @@
+img { 
+  width: 200px;
+}
+.naver {
+  width: 300px;
+  border: 2px solid green;
+  /*margin : 박스 바깔 여백*/
+  margin: 0 auto;
+   /*margin : 박스 안쪽 여백*/
+   /*박스 안쪽 상 화 좌 우 20px 여백이 생김*/
+   /*top bottom letf right*/
+  padding: 20px;
+  padding: 20px 300px;
+}
+.google {
+  width: 300px;
+  border: 2px solid rebeccapurple;
+}
