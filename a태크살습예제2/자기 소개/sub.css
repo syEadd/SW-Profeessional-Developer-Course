@@ -1,0 +1,34 @@
+li{
+  color: #000;
+  
+}
+.gnb-item{
+  display: flex;
+  margin-right: 30px;
+  justify-content: center;
+  font-weight: 700;
+  text-decoration: none;
+  
+}
+.orderd{
+  display: flex;
+}
+.gnb-item li{
+  list-style: none;
+
+
+}
+.gnb-item li a{
+  text-decoration: none;
+  color: #000;
+}
+.orderd{
+  display: flex;
+  padding-right: 20px;
+  
+}
+.orderd a{
+  padding-left: 20px;
+  
+  
+}
