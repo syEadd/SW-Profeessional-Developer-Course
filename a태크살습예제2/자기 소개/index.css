@@ -80,4 +80,32 @@ gnd-item:last-child{
   object-fit: contain;
   margin-top: 30px;
 }
+.gnd-item{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.gnd-item h3{
+  color: #fff;
 
+}
+.gnd-item h3{
+  margin-right: 40px;
+  margin-top: 30px;
+}
+.contact-item{
+  padding-right: 20px;
+ 
+}
+.contact-item:last-child{
+  padding-right: 0 ;
+}
+.cotact-list h3{
+  color: #fff;
+  padding-right: 30px;
+}
+.cotact-list{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
