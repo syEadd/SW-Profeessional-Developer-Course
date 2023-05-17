@@ -1,0 +1,32 @@
+.wrapper{
+  margin: 0 auto;
+  width: 1000px;
+  height: 1200px;
+ 
+}
+.header{
+  background-color: blue;
+  height: 200px;
+}
+.left-box{
+  background-color: chocolate;
+  width: 200px;
+  height: 500px;
+}
+.right-box{
+  text-align: right;
+  background-color: blueviolet;
+  
+  width: 800px;
+
+ 
+  
+
+  
+}
+.footer{
+
+}
+.d{
+  display: flex;
+}
