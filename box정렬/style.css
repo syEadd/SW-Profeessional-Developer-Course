@@ -1,0 +1,97 @@
+.box div {
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+}
+
+.left-float div {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.border {
+  width: 200px;
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.inline {
+  /* block, inline-block, inline 
+    세 가지 차이점에 대해서 잘 정리 해두기!
+
+    1. blcok : 가로 100% 차지, width, height 지정 가능 (수직 정렬)
+    2. inline-block : inline처럼 본인이 가진 콘텐츠 크기 만큼만
+       가로 사이즈를 차지, width, height 지정 가능 (수평 정렬)
+    3. inline : 본인이 가진 콘텐츠 크기만큼만 가로 사이즈 차지,
+       width, height 지정 불가능 (수평 정렬)
+  */
+  display: inline-block;
+}
+
+.left-inline div {
+  display: inline-block;
+}
+
+.left-flex {
+  /* 기본값 : flex-start(왼쪽 정렬) */
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+.right-float div {
+  float: right;
+}
+
+.right-float div div {
+  float: left;
+}
+
+.right-inline {
+  text-align: right;
+}
+
+.right-inline div {
+  display: inline-block;
+  text-align: left;
+  /* text-align : 문단을 수평으로 정렬하는 속성 */
+  /* block요소 안에 있는 inline 요소를 정렬한다. */
+  /* text를 정렬할 때는 자기 자신에게 적용 가능 */
+  /* inline 요소라면 text뿐 아니라 이미지도 정렬 가능함! */
+}
+
+.right-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.line p {
+  border: 1px solid black;
+}
+
+.line span {
+  border: 1px solid black;
+}
+.center_float div{
+  float:left;
+  box-sizing:border-box;
+}
+.center_float{
+  width: 300px;
+  margin: 0 auto;
+}
+/* .center-inilen{
+ text-align: center;
+}
+.center-inilen div{
+display: inline-block;
+/* text-align: center; }  */
+.ceter-flex{
+  text-align: center;}
+  .ceter-flex div{
+    display: inline-block;
+    text-align: center;
+  }
