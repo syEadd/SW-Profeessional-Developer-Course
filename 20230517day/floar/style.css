@@ -1,0 +1,32 @@
+.header{
+  background-color: aquamarine;
+  height: 100px;
+ 
+}
+.left-box{
+  background-color: blue;
+  width: 200px;
+  height: 500px;
+  float: left;
+}
+
+.right-box{
+  background-color: coral;
+  width: 1000px;
+  height: 500px;
+  float: right;
+}
+.footer{
+  clear: both;
+  background-color: lightgreen;
+  height:200px
+  
+  
+}
+
+.wrpper{
+  margin: 0 auto;
+  width: 1200px;
+  font-size: 36px;
+}
+ 
