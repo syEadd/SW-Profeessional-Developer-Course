@@ -1,0 +1,35 @@
+li{
+  list-style: none;
+}
+.gnb-list{
+  display: flex;
+  justify-content: space-around;
+  border: 2pxu palegreen;
+  
+}
+.gnb-item{
+  padding-left: 20px; 
+  
+  
+}
+
+nav{
+  background-color: blue;
+  height: 150px;
+  display: flex;
+}
+.a{ 
+  text-decoration: none;
+  font-size: 24px;
+  color: aliceblue;
+  text-align: end;
+  padding-right: 30px;
+}
+
+
+img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  
+}
