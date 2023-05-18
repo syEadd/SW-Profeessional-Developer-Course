@@ -14,7 +14,7 @@
   height: 500px;
 }
 .right-box{
-  text-align: right;
+  
   background-color: blueviolet;
   
   width: 800px;
@@ -25,7 +25,8 @@
   
 }
 .footer{
-
+background-color:coral;
+height: 300px;
 }
 .d{
   display: flex;
