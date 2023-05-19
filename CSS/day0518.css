@@ -1,23 +1,24 @@
 li{
   list-style: none;
 }
-.gnb-list{
+
+nav{
   display: flex;
-  justify-content: space-around;
-  border: 2pxu palegreen;
-  
+  justify-content: space-between;
+  background-color: blue;
+  height: 150px;
 }
 .gnb-item{
   padding-left: 20px; 
+  justify-content: flex-end;
   
   
 }
 
-nav{
-  background-color: blue;
-  height: 150px;
+.gnb-list{
   display: flex;
 }
+
 .a{ 
   text-decoration: none;
   font-size: 24px;
@@ -31,5 +32,38 @@ img{
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  
 }
+.background{
+  display: flex;
+  background-image: url('../ims/배경.jpg');
+  height: 1000px;
+  /* 바둑반 박복 금지 */
+  background-repeat:no-repeat ;
+  /* 화면 이미지 위치 설정  */
+  /*top .dottom. left. right.ceter , x, y */
+  background-position: 50px 200px;
+  /* auto의 기본 값 입니다 자동 맟춤 */
+
+  background-size: cover;
+}
+.bard-txt{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.back-title{
+  font-size: 30px;
+}
+.bard-content{
+  width: 80%;
+  font-size: 24px;
+  text-align: center;
+}
+.back-btn{
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
