@@ -67,7 +67,7 @@ img{
   border-radius: 10px;
 }
 
-.first-box > div{
+.post-box-item{
   background-color: rgb(65, 61, 61);
   width: 500px;
   color: #fff;
@@ -102,3 +102,24 @@ box-shadow: px px  px px red */
 /* spread-radius:양수값은 그림자가 커지고 음수값은 그림자가 작아진다
 기본값은 0
 box-shadow: px px px px red */
+.post-box-liat > div{
+  background-color: rgb(65, 61, 61);
+  border-radius: 20px;
+  width: 400px;
+  margin: 0 auto;
+  clear: both;
+  padding: 120px 30px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  box-shadow: 5px 5px 4px -2px black;
+
+}
+
+.post-box-liat{
+  display: flex;
+  justify-content: space-around;  
+  margin-right: 0; 
+}
+.post-box-item{
+  text-align: center;
+}
