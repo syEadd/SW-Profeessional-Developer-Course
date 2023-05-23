@@ -1,3 +1,45 @@
-body{
-  background-color: aqua;
+*{
+  font-family: 'Dongle', serif;
+}
+h1{
+  font-family: 'Single Day', cursive,;
+  font-family: 'Song Myung', serif;
+}
+.all{
+  border: 2px solid darkblue;
+  margin: 0 auto;
+  width: 500px;
+  height: 800px;
+  text-align: center;
+  /* position: relative; */
+  margin-bottom: 1000px;
+  
+}
+.box{
+border: 1px solid #000;
+width: 200px;
+height: 100px;
+line-height: 100px;
+font-size: 30px;
+}
+.egg{
+  background-color: red;
+  /* position: static;
+  left:30px;
+  top: 50px; */
+}
+.ehh{
+  position: fixed;
+  top: 50px;
+  left: 30px;
+  background-color: yellow;
+}
+.eaa{
+  background-color: yellowgreen;
+   position: sticky; 
+  top: 30px;
+  left: 30px;
+}
+.all div{
+  font-weight: 700;
 }
