@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.fix{
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.home{
+  padding-top: 150px;
+}
+.fix a img{
+  margin-left: 10px;
+  width: 50px;
+  border-radius: 50%;
+}
+.pig > a{
+  color: #fff;
+  padding-top: 10px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.pig {
+  display: flex;
+  font-weight: bold;
+}
+.appie{
+   
+  text-align: center;
+  height: 400px;
+  color: forestgreen;
+  background-image: url(/ims/오이.jpg);
+}
+.appie > h2{
+  padding-bottom: 30px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 60px;
+}
+.all{
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.appie > p{
+  font-family: 'Dongle', sans-serif;
+font-family: 'East Sea Dokdo', cursive;
+  margin-bottom: 30px;
+}
+.book{
+  background-color: aqua;  
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+}
+.ok{
+  
+  width: 400px;
+display: flex;
+margin: 0 auto;
+margin-top: -30px;
+flex-direction: column;
+}
+.ver{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: darkblue;
+}
+.as{
+  width: 50%;
+  height: 80%;
+  background-image: url('/ims/나.jpg');
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lof{
+  height: 200px;
+}
+.fog{
+  background-color: black;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.fog h1{
+  padding-left: 20px ;
+  color: #fff;
+} 
+.go > a {
+  color: #fff;
+  padding-right: 20px;
+  
+}
+.go{
+  padding-top: 10px;
+
+}
+.hot{
+  position:sticky;
+  text-align: center;
+  width: 150px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #000;
+}
+.hot p{
+  padding: 10px 0;
+  
+}
