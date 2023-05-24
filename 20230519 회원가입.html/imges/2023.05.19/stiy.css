@@ -12,7 +12,7 @@ h1{
   height: 800px;
   text-align: center;
   /* position: relative; */
-  margin-bottom: 1000px;
+  
   
 }
 .box{
@@ -31,15 +31,40 @@ font-size: 30px;
 .ehh{
   position: fixed;
   top: 50px;
-  left: 30px;
+  left: 50px;
+  z-index: 10;
+  /* 퍼지션 가진속성들 중에 누가 앞에 오고 뒤에 오는 순서 정함
+  숫자가 클수록 아프로 배치 z-index */
   background-color: yellow;
 }
 .eaa{
   background-color: yellowgreen;
-   position: sticky; 
+   position: absolute; 
   top: 30px;
   left: 30px;
+  z-index:20
 }
 .all div{
   font-weight: 700;
+}
+.cat-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: blue;
+}
+.cat{
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  background-image: url(./imges/나.jpg);
+  background-repeat:no-repeat ;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  /* background-attachment: fixed; 스크롤 속성임  기본값은 fixed */
+}
+.scroll{
+  height: 1000px;
 }
