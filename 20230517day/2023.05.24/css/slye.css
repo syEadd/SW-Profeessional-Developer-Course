@@ -1,3 +1,6 @@
+body{
+  position: relative;
+}
 *{
   margin: 0;
   padding: 0;
@@ -114,4 +117,20 @@ flex-direction: column;
 .hot p{
   padding: 10px 0;
   
+}
+.hot{
+  position: fixed;
+  top: 60px;
+  right: 30px;
+}
+.buy{
+  
+  position: fixed;
+  right: 30px;
+  bottom: 60px;
+  font-size: 40px;
+
+}
+.buy i{
+  color: gold;
 }
