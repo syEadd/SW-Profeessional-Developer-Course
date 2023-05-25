@@ -72,7 +72,9 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center bottom;
   background-color: darkblue;
 }
 .as{
@@ -133,4 +135,7 @@ flex-direction: column;
 }
 .buy i{
   color: gold;
+}
+.go i :last-child a{
+  padding: 0;
 }
