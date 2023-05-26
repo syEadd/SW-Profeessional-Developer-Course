@@ -58,3 +58,23 @@ Bootstrap 라이브러리가 권장하는 breakpoing
     font-size: 24px;
   }
 }
+@media screen and (min-width: 768px){
+  header{
+    background-color: firebrick;
+    color: antiquewhite;
+    padding: 30px 0;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+  }
+  .box-list div{
+    
+    width: 30%;
+    border: 2px solid red;
+    height: 300px;
+  }
+  .box-list{
+    display: flex;
+    flex-direction: column;
+  }
+}
