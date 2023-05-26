@@ -41,3 +41,20 @@ footer{
 .wrpper{
   text-align: center;
 }
+/* 권장하는 breakpoint
+[1200px] [992px] [768px] [576px]
+Bootstrap 라이브러리가 권장하는 breakpoing 
+1200px 이상: Desktop D. L
+1200px 이하 : 태블릿 T, M
+768px 미만 : 모바일 M,S*/
+@media screen and (max-width :1200px) {
+  footer{
+    margin-top: 30px;
+    background-image: url(./imges/유튜브.png);
+    color: antiquewhite;
+    padding: 15px 0;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+  }
+}
