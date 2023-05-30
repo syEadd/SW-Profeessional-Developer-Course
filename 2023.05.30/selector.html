@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5월 30일</title>
+</head>
+<style>
+   /* .parents:hover .seceond{
+    color: tomato;
+  }
+  .parents:hover ~.parents1{
+    font-size: 24px;
+  } 
+  h1:hover ~ p{
+    font-size: 24px;
+    color: aqua;
+    font-weight: 700;
+  }
+  .first:hover ~.seceond{
+    text-decoration: underline;
+  } */
+  .box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+     transition:transform 4s ease-in;
+    /* 시간과 속도 */
+  }
+  .box:hover{
+    transform: translateX(500px);
+    /* 방향과 기능 */
+  }
+  /* 예시 transitiond은 지정. 4s시간 ease-in-out 천천히 빠르게 */
+  .egg{
+    border: 3px solid blue;
+
+  }
+  .egg p{
+    width: 100px;
+    height: 100px;
+    color: black;
+  }
+  .a{
+    background-color: cadetblue;
+    transition:transform 4s ease;
+  }
+  .b{
+    background-color: coral;
+    transition:transform 4s linear;
+  }
+  .c{
+    background-color: blue;
+    transition:transform 4s ease-in;
+  }
+  .d{
+    background-color: blueviolet;
+    transition:transform 4s ease-out;
+  }
+  .e{
+    background-color: chartreuse;
+    transition:transform 4s ease-in-out;
+  }
+ h2:hover ~p{
+  transform: translateX(500px);
+ }
+</style>
+<body>
+  
+  <div class="wrapper">
+    <div class="parents">
+      <h1>안녕</h1>
+      <p class="first">문단1</p>
+      <p class="seceond">문단2</p>
+      <p>문단3</p>
+    </div>
+    <p class="parents1">부모의 형제요소</p>
+  </div>
+  <div class="box">
+   </div>
+  <div class="egg">
+    <h2>박스 이동</h2>
+    <p class="a">ease</p>
+    <p class="b">linear</p>
+    <p class="c">ease-in</p>
+    <p class="d">ease-out</p>
+    <p class="e">ease-in-out</p>
+  </div>
+</body>
+</html>
