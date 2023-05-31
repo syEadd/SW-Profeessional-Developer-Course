@@ -1,0 +1,80 @@
+.go{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: move2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
+  /* alternate: 앞뒤로 재생 , reverse 뒤로재생  */
+}
+
+.as{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: move2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
+  /* alternate: 앞뒤로 재생 , reverse 뒤로재생  */
+}
+@keyframes move{
+  0%{
+left: 0;
+background-color: blueviolet;
+  }
+
+  40%{
+    left: 100px;
+    background-color: firebrick;
+  }
+  100%{
+    left: 400px;
+    background-color: aqua;
+  }
+}
+@keyframes move2{
+  from{
+    left: 0;
+    background-color: aqua;
+  }
+  to{
+    background-color: blueviolet;
+    left: 200px;
+  }
+}
+.line-active span:first-child{
+  background-color: red;
+  box-shadow:  0 0 3px darkblue;
+  
+}
+.line-active{
+  position: relative;
+}
+.as{
+  width: 30px;
+  height: 3px;
+  display: inline-block;
+  animation-name: linemove ;
+  animation-timing-function: inherit;
+  animation-direction: alternate;
+  position: relative;
+  
+}
+.line-active span:last-child{
+  background-color: blue;
+  box-shadow:  0 0 3px darkblue;
+  animation-delay: 0.5s;
+  bottom: 0;
+}
+@keyframes linemove{
+  from{
+    left: 0;
+  }
+  to {
+    left: 400px;
+  }
+}
