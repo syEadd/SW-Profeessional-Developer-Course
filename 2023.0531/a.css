@@ -49,11 +49,11 @@ background-color: blueviolet;
 .line-active span:first-child{
   background-color: red;
   box-shadow:  0 0 3px darkblue;
-  
+  top: 0;
 }
-.line-active{
-  position: relative;
-}
+ .line-active{
+  /* position: relative; */
+} 
 .as{
   width: 30px;
   height: 3px;
@@ -61,7 +61,7 @@ background-color: blueviolet;
   animation-name: linemove ;
   animation-timing-function: inherit;
   animation-direction: alternate;
-  position: relative;
+  position: absolute;
   
 }
 .line-active span:last-child{
@@ -69,6 +69,8 @@ background-color: blueviolet;
   box-shadow:  0 0 3px darkblue;
   animation-delay: 0.5s;
   bottom: 0;
+  position: absolute;
+  
 }
 @keyframes linemove{
   from{
