@@ -1,7 +1,32 @@
-.all{
-  width: 1200px;
-  height: 800px;
-  background-color: blue;
+.egg{
+  width: 70%;
 
-  
+  background-color: blue;
+  margin: 30px auto;
+  position: relative;
+}
+.egg img{
+  background-size: 50%;
+}
+.elemets{
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-duration: 1.5s;
+  animation-name: move;
+  animation-timing-function: inherit;
+  animation-timing-function: linear;
+}
+@keyframes move{
+  0%{
+    transform: translate(-15px, 0)
+  }
+  50%{
+    transform: translate(0px,-15px)
+    
+  }
+  100%{
+   
+    transform: translate(-15px, 0)
+  }
 }
